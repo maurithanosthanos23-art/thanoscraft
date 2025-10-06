@@ -1,0 +1,16 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+body{font-family:Arial,sans-serif;line-height:1.6;background:#f0f8ff;color:#333;}
+header{background:linear-gradient(90deg,#ff7e5f,#feb47b);padding:20px;color:white;text-align:center;}
+nav ul{display:flex;justify-content:center;list-style:none;gap:20px;}
+nav ul li a{color:white;text-decoration:none;font-weight:bold;}
+.hero{text-align:center;padding:50px;background:#ffe4e1;}
+section.videos,section.imagens,section.produtos{padding:30px;text-align:center;}
+section.imagens img, .galeria-container img, .produto img{width:200px;margin:10px;border-radius:10px;transition:transform 0.3s;}
+section.imagens img:hover, .galeria-container img:hover, .produto img:hover{transform:scale(1.1);}
+.produto{display:inline-block;margin:20px;text-align:center;background:#fff;padding:10px;border-radius:10px;box-shadow:0 4px 6px rgba(0,0,0,0.1);}
+footer{background:#333;color:white;text-align:center;padding:20px;}
+footer .social a{color:white;margin:0 10px;text-decoration:none;}
+form{display:flex;flex-direction:column;width:300px;margin:20px auto;}
+form input,form textarea,form button{margin:10px 0;padding:10px;border-radius:5px;border:1px solid #ccc;}
+form button{background:linear-gradient(90deg,#ff7e5f,#feb47b);color:white;border:none;cursor:pointer;transition:background 0.3s;}
+form button:hover{background:linear-gradient(90deg,#feb47b,#ff7e5f);}
